@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<title>Jogo da Velha</title>
+	<meta charset="UTF-8"/>
+	<meta name="author" content="Rafael Mazzoli Camargo e Fabricio Talarico">
+	<meta name="description" content="Site para entrega de Tarefa 04 do curso de Programação WEB">
+	<meta name="keywords" content="Jogo da Velha">
+	<meta http-equiv="refresh" content="">
+	<link rel="stylesheet" type="text/css" href="_css/style-default.css">
+	<script language="javascript" src="_js/funcoes.js"></script>
+</head>
+<body>
+<header id="cabecalho">
+	<h1 id="titulo">Jogo da Velha</h1>
+</header>
+<section id="tudo">
+	<section id="lado-azul">
+		<p>Azul</p>
+		<p id="pontos-azul">0</p>
+	</section>
+	<section id="lado-vermelho">
+		<p>Vermelho</p>
+		<p id="pontos-vermelho">0</p>
+	</section>
+	<section id="tabuleiro">
+		<img id="tabuleiros" src="_imagens/Jogo-Da-Velha-Tabuleiro-Dotted.jpg"/>
+		<img id="q11" src="_imagens/Bloco-Branco.jpg" onclick="marcarPosicao(0, 'q11')"/>
+		<img id="q12" src="_imagens/Bloco-Branco.jpg" onclick="marcarPosicao(1, 'q12')"/>
+		<img id="q13" src="_imagens/Bloco-Branco.jpg" onclick="marcarPosicao(2, 'q13')"/>
+		<img id="q21" src="_imagens/Bloco-Branco.jpg" onclick="marcarPosicao(3, 'q21')"/>
+		<img id="q22" src="_imagens/Bloco-Branco.jpg" onclick="marcarPosicao(4, 'q22')"/>
+		<img id="q23" src="_imagens/Bloco-Branco.jpg" onclick="marcarPosicao(5, 'q23')"/>
+		<img id="q31" src="_imagens/Bloco-Branco.jpg" onclick="marcarPosicao(6, 'q31')"/>
+		<img id="q32" src="_imagens/Bloco-Branco.jpg" onclick="marcarPosicao(7, 'q32')"/>
+		<img id="q33" src="_imagens/Bloco-Branco.jpg" onclick="marcarPosicao(8, 'q33')"/>
+		<button id="novo-round" onclick="novoJogo()">Restart</button>
+	</section>
+</section>
+<footer id="rodape">
+	<p>Por <b>Rafael Mazzoli Camargo - 176188 & Fabrício Talarico - 167119</b><br/> Copyright - 2016</p>
+</footer>
+</body>
+</html>
